@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabelas</title>
+</head>
+
+<body>
+    <!-- 1ª Tabela -->
+    <table border>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Pais</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jean</td>
+                <td>21</td>
+                <td>Brasil</td>
+            </tr>
+            <tr>
+                <td>Ronaldinho</td>
+                <td>35</td>
+                <td>Brasil</td>
+            </tr>
+            <tr>
+                <td>Scorsese</td>
+                <td>80</td>
+                <td>EUA</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- 2ª Tabela -->
+    <table border>
+        <thead>
+            <tr>
+                <th>Tabela</th>
+                <th>Hora de Saída</th>
+                <th>Hora de Chegada</th>
+                <th>Classe do Onibus</th>
+                <th>Tarifa Normal</th>
+                <th>Frequência</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <h4>Cidade 1 </h4>
+                </td>
+                <td>06:00</td>
+                <td>08:00</td>
+                <td>Convencional</td>
+                <td>20</td>
+                <td>Diária</td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Cidade 2 </h4>
+                </td>
+                <td>05:00</td>
+                <td>10:00</td>
+                <td>Leito</td>
+                <td>25</td>
+                <td>Domingos</td>
+            </tr>
+            <tr>
+                <td>
+                    <h4> Cidade 3 </h4>
+                </td>
+                <td>07:00</td>
+                <td>09:00</td>
+                <td>Executivo</td>
+                <td>40</td>
+                <td>Sabados</td>
+            </tr>
+            <tr>
+                <td colspan="6">Horários de Onibus</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- 1ª Tabela -->
+    <table border>
+        <thead>
+            <tr>
+                <th colspan="2" rowspan="2"></th>
+                <th colspan="3">Demografia</th>
+            </tr>
+            <tr>
+                <th>Meninos</th>
+                <th>Meninas</th>
+                <th>Professor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">Turmas</td>
+                <td>A</td>
+                <td>20</td>
+                <td>5</td>
+                <td rowspan="2">João Pedro</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>21</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>25</td>
+                <td>2</td>
+                <td rowspan="2">Maria João</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>20</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>86</td>
+                <td>10</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+    </table>
