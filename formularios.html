@@ -6,12 +6,16 @@
 <body>
     <h2>Cadastre-se</h2>
     <form method="post">
-        Nome: <input type="text" name="nome"/>
+        <fieldset>
+            <legend>Informações de login</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome"/>
         <br />
         Email: <input type="email" name="email"/>
         <br />
         Senha: <input type="password" name="senha" />
         <br />
+    </fieldset>
         Endereço: <input type="text" name="endereco" />
         <br />
         Nascimento: <input type="date" name="nascimento">
